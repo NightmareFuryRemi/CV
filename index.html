@@ -1,97 +1,57 @@
 <!DOCTYPE html>
-<html>
-    
     <head>
         <meta charset="utf-8">
-        <title>Remi's Personal Site</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Remigiusz Zarzycki</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="icon" href="favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
     </head>
-    
     <body>
-        <table cellspacing="20">
-            <td><img src="https://scontent-frt3-1.xx.fbcdn.net/v/t1.6435-9/33246722_1725965084159206_4268909360047980544_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=Hipf6vnP9T8AX9YesMF&_nc_ht=scontent-frt3-1.xx&oh=00_AT_mMmIG9OIq3aEDSrcmpQbXYu6VBLCRB66ZVQPVW102XA&oe=62B2F71E" alt="Remi Profile picture" width="200" height="200"></td>
-            <td><h1>Remigiusz Zarzycki</h1>
-                <p><em>Just a stupid student, trying to learn how to code</em></p>
-                <p>Like i said, I am just a stupid student learning how to code.<br>I am interested in automotive so it's a little bit expensive hobby so I want to make a lot of money to make my dreams about cars and dream job comes true.I would to add some of my progress here.<br>Stay tuned!</p></td>
-        </table>
-        <hr>
-        <h3>Education</h3>
-        <ul>
-            
-            <li><a href="https://www.zsbe.swidnica.pl">Zespół Szkół Budowlano-Elektrycznych w Świdnicy - profile: Technik-Informatyk ☑</a></li>
-            <ul>
-                <li>Network management and network systems ☑</li>
-                <li>Basic knowledge how computers and network works ☑</li>
-                <li>Basic knowledge about programming ☑</li>
-            </ul>
-            
-            <li><a href="https://www.wsb.pl">Wyższa Szkoła Bankowa we Wrocławiu - Programowanie AR/VR ☐</a></li>
-            <ul>
-                <li>Advanced Phyton programming language ☐</li>
-                <li>Advanced Java programming language ☐</li>
-            </ul>
-            
-            <li><a href="https://www.udemy.com">The Complete 2022 Web Development Bootcamp Udemy - ☐</a></li>
-            <ul>
-                <li>Codeing in HTML ☐</li>
-                <li>Codeing in CSS ☐</li>
-                <li>Codeing in JS ☐</li>
-            </ul>
-        </ul>
-        <hr>
-        <h3>Work Experience</h3>
-        
-        <table cellspacing="10">
-            <thead>
-                <th>Dates</th>
-                <th>Work</th>
-            </thead>
-            <tbody>
-            <tr>
-                <td>Current</td>
-                <td>Still learning/not working</td>
-            </tr>
-        </table>
-        
-        <hr>
-        <h3>Skills</h3>
-        <table cellspacing="10">
-            <tr>
-                <td>HTML</td>
-                <td>⭐⭐⭐⭐</td>
-            </tr>
-            <tr>
-                <td>CSS</td>
-                <td>⭐⭐⭐</td>
-            </tr>
-            <tr>
-                <td>JavaScript</td>
-                <td>⭐</td>
-            </tr>
-            <tr>
-                <td>Java</td>
-                <td>⭐⭐</td>
-            </tr>
-            <tr>
-                <td>Phyton</td>
-                <td>⭐</td>
-            </tr>
-            <tr>
-                <td>Photography</td>
-                <td>⭐⭐⭐⭐</td>
-            </tr>
-            <tr>
-                <td>Recording</td>
-                <td>⭐⭐⭐⭐⭐</td>
-            </tr>
-            <tr>
-                <td>Recording</td>
-                <td>⭐⭐⭐⭐⭐</td>
-            </tr>
-        </table>
-        <hr>
-        <a href="hobbies.html">My Hobbies</a><br>
-        <a href="contact.html">Contact me !</a>
-       
+        <div class="top-container">
+            <img class="top-cloud" src="images/cloud.png" alt="cloud">
+            <h1>Hi I'm Remi.</h1>
+            <h2>An beginner programmist.</h2>
+            <img class="bottom-cloud" src="images/cloud.png" alt="cloud">
+            <img src="images/mountain.png" alt="mountain">
+        </div>
+        <div class="middle-container">
+            <div class="profile">
+              <img src="images/prof.png" alt="profka">
+              <h2>Hello.</h2>
+              <p class="prof-desc">I am beginner web developer and here is my first good looking and working site. It gonna be a portfolio for my future job reference.</p>
+            </div>
+            <hr>
+            <div class="skills">
+              <h2>My Skills.</h2>
+              <div class="skill-row">
+                <img class="htmlcss-img" src="images/htmlcss.png" alt="HTMLandCSS">
+                <h3>HTML & CSS</h3>
+                <p>This site will show how good I know HTML & CSS and how can I use it.</p>
+              </div>
+              <div class="skill-row">
+                <img class="js-img" src="images/js.png" alt="JavaScript">
+                <h3>JavaScript</h3>
+                <p>My main programming language, I'll put some of code on this website later ;)</p>
+              </div>
+            </div>
+            <hr>
+            <div class="contact-me">
+              <h2>Get In Touch</h2>
+              <h3>See ya next time ;)</h3>
+              <p class="contact-message">Feel free to contact with me.</p>
+              <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
+            </div>
+          </div>
+          
+          
+          <div class="bottom-container">
+            <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+            <a class="footer-link" href="https://twitter.com/">Twitter</a>
+            <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+            <p class="copyright">© Remigiusz Zarzycki.</p>
+          </div>
     </body>
-
 </html>
